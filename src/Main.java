@@ -1,10 +1,10 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        Scanner myObj = new Scanner(System.in);  // Create a Scanner object
-        System.out.println("Enter username");
-
+        Scanner myObj = new Scanner(System.in);  
+        System.out.println("Enter first value ");
         int a = myObj.nextLine();
+        System.out.println("Enter second value ");
         int b = myObj.nextInt();
         Process ob1 = new Process(a,b);
         ob1.add();
