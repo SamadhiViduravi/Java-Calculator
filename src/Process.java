@@ -16,5 +16,6 @@ public class Process {
     }
     public void mul() {
         int mul = input_1 * input_2;
+        System.out.println("mul = " + mul);
     }
 }
