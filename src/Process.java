@@ -10,4 +10,8 @@ public class Process {
         int sum = input_1 + input_2;
         System.out.println("sum = " + sum);
     }
+    public void sub() {
+        int sub = input_1 - input_2;
+        System.out.println("sub = " + sub);
+    }
 }
